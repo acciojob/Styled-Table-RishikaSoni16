@@ -1,1 +1,14 @@
-/* your code */
+#tab1{
+	border-collapse: collapse;
+	width:100%;
+}
+
+#tab1 th{
+	background-color:#224C98;
+	color:white;
+	text-align:left;
+	paddin:8px;
+}
+#tab1 tr:nth-child(even){
+	background-color:#f2f2f2;
+}
